@@ -1,0 +1,513 @@
+*{
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    text-decoration: none;
+}
+/*vertical lines section*/
+
+/*vertical lines ending*/
+/*floating social icons section*/
+.social_media_float{
+    position: fixed;
+    top:50%;
+    width:80px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: transparent;
+}
+.social_media_float .social_icons{
+width:50px;
+height:50px;
+border-radius: 15px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: transparent;
+}
+.social_icons img{
+    width:90%;
+    height:90%;
+    object-fit: fit;
+}
+
+
+/*floating socail icons section ending*/
+
+
+
+
+
+/*top_nav styling section starting*/
+.top_nav{
+width:auto;
+height:30px;
+}
+.top_nav .top_nav_links{
+    display: flex;
+    float: right;
+    margin-top:5px;
+    list-style: none;
+    font-weight:600;
+}
+.top_nav_links li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*top_nav styling ending*/
+
+/*navbar section styling begin*/
+.navbar_section{
+    width:100%;
+    height:100px;
+    display: flex;
+    align-items: center;
+}
+.navbar_section .logo_section{
+    width:250px;
+    height:80px;
+    margin-left:100px;
+}
+.logo_section img{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+.navbar_section .nav_links{
+    width:75%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav_links .navlinks{
+    width:75%;
+    height:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navlinks li{
+    font-weight: 600;
+    font-size: 18px;
+    list-style: none;
+}
+
+/*navbar section styling ending*/
+
+/*hero section stylling beign*/
+.hero_section{
+    width:auto;
+    height:630px;
+    /*background: linear-gradient(176.15deg, #FF9900 -66.86%, rgba(255, 153, 0, 0) 104.82%);*/
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0.1516981792717087) 36%, rgb(243, 225, 206) 100%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero_section .hero_content{
+    width:550px;
+    height:450px;
+    margin-left:55px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.hero_section .hero_image{
+    width:550px;
+    height:450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*hero section ending*/
+/*company services seciton begin*/
+.company_services{
+   width : auto;
+   height:500px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top:50px;
+}
+.company_services .services_block{
+        width:300px;
+        height:400px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 15px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        font-weight: 600;
+}
+.services_block:first-child{
+    margin-left:35px;
+}
+.services_block .servcies_image{
+    width:100px;
+    height:100px;
+    border-radius:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.servcies_image img{
+width:80px;
+height:80px;
+object-fit:fit;
+}
+.services_block h4{
+    font-weight: bold;
+    font-size: 20px;
+    color: #081C41;
+}
+.services_block p{
+    text-align: center;
+}
+.services_block button{
+    width:120px;
+    height:50px;
+    border-radius:100px;
+    border:none;
+    background-color: #081C41;
+    color:white;
+    font-size: 18px;
+    font-weight:600;
+}
+/*comapny services seciton ending*/
+
+/*about us section beginning*/
+.about_us{
+    width:auto;
+    height:550px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:50px;
+}
+.about_us .about_image{
+    width:550px;
+    height:450px;
+    margin-left:55px
+}
+.about_us .about_content{
+    width:550px;
+    height:450px;
+}
+.about_content h4{
+    color:#b0c2e4;
+    font-size: 24px;
+}
+.about_content h1{
+    font-weight: 600;
+    font-size: 35px;;
+}
+.about_content p{
+    font-weight: 600;
+    color:#63666d;
+}
+.about_content button{
+    width:150px;
+    height:50px;
+    border-radius: 100px;
+    background-color:#081C41;
+    font-weight:600;
+    border:none;
+    font-size:20px;
+    color:white;
+    margin-top:20px;
+    margin-left:20px;
+}
+/*about us section ending */
+
+/*our services section begin*/
+.our_services .services_title{
+    width:100%;
+    height:150px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.our_services .services_tiles{
+    width:100%;
+    height:450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top:50px;
+}
+.services_tiles .services{
+    width:250px;
+    height:400px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.services .services_image img{
+    width:80px;
+    height:80px;
+    object-fit: fit;
+    margin-top:10px;
+}
+.services h4{
+    font-weight: 600;
+}
+.services p{
+    text-align:center;
+    font-weight:600;
+    width:90%;
+    margin-left:5%;
+    margin-right:5%;
+}
+.services button{
+    width:120px;
+    height:35px;
+    background-color: #081C41;
+    color:white;
+    border:none;
+    border-radius:100px;
+    font-weight:600;
+}
+.services:first-child{
+    margin-left:65px;
+}
+/*our services section ending*/
+
+/*our oath testimonial section beign*/
+.our_oath_testimonial_section{
+    width:100%;
+    height:500px;
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.our_oath_testimonial_section .our_oath_text{
+    width:550px;
+    height:450px;
+    margin-left:55px;
+}
+.our_oath_text h4{
+    color:#081C41;
+    font-size:18px;
+    font-weight:600;
+    text-decoration: underline;
+}
+.our_oath_text h1{
+    font-weight:600;
+}
+.our_oath_text p{
+    font-weight:500;
+}
+.our_oath_testimonial_section .our_oath_images{
+    width:550px;
+    height: 100%;
+    display: flex;
+}
+.our_oath_images .msgpop1{
+    width:100%;
+    height:100%;
+}
+.msgpop1 .msg1{
+    width:80%;
+    height:170px;
+    border-radius: 15px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.msgpop1 .msg2{
+    width:80%;
+    height:170px;
+
+    margin-top:75px;
+    border-radius: 15px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.our_oath_images .msgpop2{
+    width:100%;
+    height:100%;
+}
+.msgpop2 .msg3{
+    width:80%;
+    height:170px;
+    margin-top:75px;
+    border-radius: 15px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.msgpop2 .msg4{
+    width:80%;
+    height:170px;
+    margin-top:35px;
+    border-radius: 15px;
+    box-shadow:  rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+/*our oath testimonial section ending*/
+
+/*blog section styling begin*/
+.blog_section{
+    width:100%;
+    height:600px; 
+    margin-top:50px;
+    background-color: white;
+}
+.blog_section .blog_section_title{
+    width:100%;
+    height:150px;
+}
+.blog_section_title{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   flex-direction: column;
+   text-align: center;
+}
+.blog_section_title h3, h2{
+   font-weight: 600;
+}
+.blog_section_title h2{
+    margin-top:-15px;
+    font-size:35px;
+}
+.blog_section .blog_tiles_section{
+    width:100%;
+    height:450px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.blog_tiles_section .blog_tiles{
+    width:400px;
+    height:300px;
+}
+.blog_tiles{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.blog_tiles img{
+    width:350px;
+    height:200px;
+    object-fit:contain;
+}
+.blog_tiles p{
+    font-size:14px;
+}
+.blog_tiles button{
+    width:150px;
+    height:35px;
+    border-radius:100px;
+}
+/*blog section styling ending*/
+
+/*contact us section beiginng*/
+.contact_us_section{
+    width:100%;
+    height:600px;
+    margin-top:50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact_us_section .contact_us_forms{
+    width:550px;
+    height:500px;                
+    margin-left:70px;
+}
+.contact_us_forms img{
+    width:100%;
+    height:100%;
+    object-fit:fit;
+}
+.contact_us_section .contact_us_image{
+    width:600px;
+    height:500px;                     
+}
+.contact_us_image form input{
+   width:250px;
+   height:35px;
+}
+
+/*contact us section ending*/
+
+/*footer section styling begin*/
+.footer_section{
+    width:100%;
+    height:350px;
+    background-color: #081C41;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer_section .footer_logo{
+    width:250px;
+    height:150px;
+    margin-left:30px;
+}
+.footer_logo img{
+    width:100%;
+    height:100%;
+    object-fit:contain;
+}
+.footer_section .footer_scribe{
+    width:200px;
+    height:150px;
+}
+.footer_scribe form input{
+    background-color: transparent;
+    border:1px solid white;
+    width:100%;
+}
+.footer_scribe form button{
+    width:100px;
+    height:auto;
+    border:1px solid white;
+    background-color: transparent;
+    color:white;
+    font-weight: 600;
+    border-radius: 100px;
+    margin-top:5px;
+}
+.footer_section .getintouch{
+    width:200px;
+    height:150px;
+}
+.getintouch h5,p{
+    color:white;
+    font-weight:500;
+}
+.footer_section .quick_links{
+    width:200px;
+    height:150px;
+}
+.quick_links h4{
+    color:white;    
+    margin-left:35px;
+}
+.quick_links ul li{
+    list-style: none;
+    color:white;
+    text-align: left;
+}
+.quick_links ul li:first-child{
+    margin-top:-10px;
+}
+/*footer section styling ending*/
+
+
+
+
