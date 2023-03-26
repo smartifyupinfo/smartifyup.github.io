@@ -230,8 +230,14 @@ object-fit:fit;
 .about_us .about_image{
     width:550px;
     height:450px;
-    margin-left:55px
+    margin-left:25px;
 }
+.about_image img{
+    width:100%;
+    height:90%;
+    object-fit: fit;
+}
+
 .about_us .about_content{
     width:550px;
     height:450px;
@@ -581,3 +587,7 @@ object-fit:fit;
     margin-top:-10px;
 }
 /*footer section styling ending*/
+
+
+
+
