@@ -8,14 +8,13 @@
     height:500px;
     background-color: #fff9f0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
 }
 .our_services_hero_section .our_services_img{
-    width:700px;
+    width:650px;
     height:90%;
-    margin-left:50px;
     overflow: hidden;
 }
 .our_services_img img{
