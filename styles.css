@@ -138,7 +138,7 @@ background-color: none;
     display:flex;
     flex-direction: column;
     justify-content: center;
-    border:1px solid black;
+    
 }
 .hero_section .hero_image{
     width:550px;
