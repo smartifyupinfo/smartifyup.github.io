@@ -138,6 +138,7 @@ background-color: none;
     display:flex;
     flex-direction: column;
     justify-content: center;
+    border:1px solid black;
 }
 .hero_section .hero_image{
     width:550px;
@@ -516,6 +517,9 @@ object-fit:fit;
     height:40px;
     border-radius:10px;
 }
+.footer_scribe form input::placeholder{
+    color:white;
+}
 .footer_scribe form button{
     width:100px;
     height:auto;
@@ -540,7 +544,7 @@ object-fit:fit;
 }
 .quick_links h4{
     color:white;    
-    margin-left:35px;
+    margin-left:30px;
 }
 .quick_links ul li{
     list-style: none;
