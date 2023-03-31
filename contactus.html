@@ -10,38 +10,42 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/maiandra-gd" rel="stylesheet">
     <title>Smartify Up</title>
 </head>
 <body>
-  <!--social media floating icons-->
-  <section class="social_media_float">
-    <div class="social_icons"><img src="\images\instagram.png" alt=""></div>
-    <div class="social_icons"><img src="\images\linkedin.png" alt=""></div>
-    <div class="social_icons"><img src="\images\whatsapp.png" alt=""></div>
-</section>
+
+    <!--social media floating icons-->
+    <section class="social_media_float">
+        <div class="social_icons"><img src="\images\instagram.png" alt=""></div>
+        <div class="social_icons"><img src="\images\linkedin.png" alt=""></div>
+        <div class="social_icons"><img src="\images\whatsapp.png" alt=""></div>
+    </section>
 <!--navbar section-->
 
 <nav class="navbar">
-<div class="top_nav">
-<ul class="top_nav_links">
-    <li><a href="tel:+912255663355"><i class="fa fa-phone" style="color:black"></i>+91 97500 97588</a></li>
-    <li><a href="mailto:social.media@samrtifyup.com">&nbsp; &nbsp; &nbsp;<i class="fa fa-envelope" style="color:black"></i>
-        info@samrtifyup.com</a></li>
-</div>
-<div class="navbar_section">
-<div class="logo_section">
-    <a href="index.html"><img src="\images\logo.png" alt=""></a>
-</div>
-<div class="nav_links"> 
-<ul class="navlinks">
-    <li><a href="aboutus.html" class="hover-underline-animation" >About us</a></li>
-    <li><a href="#" class="hover-underline-animation">Our Services</a></li>
-    <li><a href="blog.html" class="hover-underline-animation">Blog</a></li>
-    <li><a href="contactus.html" class="hover-underline-animation">Contact us</a></li>
-</ul>    
-</div>
+    <div class="navbar_section">
+    <div class="logo_section">
+        <a href="index.html"><img src="\images\logo.png" alt=""></a>
+    </div>
+    <div class="nav_links"> 
+    <ul class="navlinks">
+        <li><a href="aboutus.html" class="hover-underline-animation" >About us</a></li>
+        <li><a href="ourservices.html" class="hover-underline-animation">Our Services</a></li>
+        <li><a href="contactus.html" class="hover-underline-animation">Contact us</a></li>
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Reach Us
+            </a>          
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Call us</a></li>
+              <li><a class="dropdown-item" href="#">Mail Us</a></li>
+            </ul>
+          </div>
+    </ul>    
+    </div>
 </div>
 </nav>
 <br><br><br><br>
@@ -88,10 +92,10 @@
         <div class="quick_links">
             <h4>Quick liks</h4>
             <ul>
-                <li><a href="#">About us</a></li>
-                <li><a href="#">Our Services</a></li>
-                <li><a href="#">Blog</a></li>
-                <li><a href="#">Contact us</a></li>
+                <li><a href="aboutus.html">About us</a></li>
+                <li><a href="ourservices.html">Our Services</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contactus.html">Contact us</a></li>
             </ul>
         </div>
         </footer>
@@ -100,6 +104,9 @@
 
 
     <script src="index.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
 </body>
 </html>
