@@ -2,6 +2,9 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: 'Maiandra GD', sans-serif;
+    margin:0;
+    padding:0;
+    text-decoration: none;
 }
 /*vertical lines section*/
 body{
@@ -49,25 +52,6 @@ background-color: none;
     height:100px;
     background-color: #fff9f0;
 }
-.top_nav{
-width:auto;
-height:20px;
-padding:0px;
-}
-.top_nav .top_nav_links{
-    display: flex;
-    float: right;
-    list-style: none;
-    font-weight:500;
-}
-.top_nav_links li{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.top_nav_links li a{
-    font-size:14px;
-}
 /*top_nav styling ending*/
 
 /*navbar section styling begin*/
@@ -83,13 +67,12 @@ padding:0px;
 .navbar_section .logo_section{
     width:250px;
     height:80px;
-    margin-left:100px;
+   margin-left:50px;
 }
 .logo_section img{
     width:100%;
     height:100%;
     object-fit: contain;
-    margin-top:-20px;
 }
 .navbar_section .nav_links{
     width:75%;
@@ -97,7 +80,6 @@ padding:0px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:-50px;
 }
 .nav_links .navlinks{
     width:75%;
@@ -111,6 +93,9 @@ padding:0px;
     font-weight: 600;
     font-size: 18px;
     list-style: none;
+}
+.navlinks li a{
+    text-decoration: none;
 }
 .navlinks li .hover-underline-animation {
     display: inline-block;
@@ -230,6 +215,7 @@ object-fit:fit;
 .about_us .about_image{
     width:550px;
     height:450px;
+    margin-left:25px;
 }
 .about_image img{
     width:100%;
@@ -242,7 +228,7 @@ object-fit:fit;
     height:450px;
 }
 .about_content h4{
-    color:#b0c2e4;
+    color:#1b56c5;
     font-size: 24px;
 }
 .about_content h1{
@@ -251,7 +237,7 @@ object-fit:fit;
 }
 .about_content p{
     font-weight: 600;
-    color:#63666d;
+    color:#5a6883;
 }
 .about_content button{
     width:150px;
@@ -458,31 +444,13 @@ object-fit:fit;
     object-fit:contain;
 }
 .blog_tiles p{
-    font-size:14px;
+    font-weight: bold;
+    color:#5a6883;
 }
-.blog_tiles .blog_section_tiles .hover-underline-animation {
-    display: inline-block;
-    position: relative;
-    color: #ce9822;
-  }
-  
-  .hover-underline-animation::after {
-    content: '';
-    position: absolute;
-    width: 100%;
-    transform: scaleX(0);
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #ecb44b;
-    transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
-  }
-  
-  .hover-underline-animation:hover::after {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-  }
+.blog_tiles .blog_section_tiles a{
+    text-decoration: none;
+    color:#ce9822;
+}
 /*blog section styling ending*/
 
 /*contact us section beiginng*/
@@ -518,7 +486,7 @@ object-fit:fit;
 .footer_section{
     width:100%;
     height:250px;
-    background-color: #081C41;
+    background-color: #6788c5;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -581,6 +549,7 @@ object-fit:fit;
 }
 .quick_links li a{
     color:white;
+    text-decoration: none;
 }
 .quick_links ul li:first-child{
     margin-top:-10px;
