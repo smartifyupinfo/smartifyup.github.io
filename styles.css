@@ -26,8 +26,8 @@ box-sizing:border-box;
     background-color: transparent;
 }
 .social_media_float .social_icons{
-width:35px;
-height:35px;
+width:25px;
+height:25px;
 display: flex;
 justify-content: center;
 align-items: center;
