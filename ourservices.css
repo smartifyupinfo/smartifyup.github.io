@@ -31,12 +31,12 @@
     height:70%;
 }
 .our_services_content p{
-    color:#5a6883;
+    color:#404255;
     line-height: 1.4;
     text-align: justify;
 }
 .our_services_hero_section h1{
-    color:#5a6883;
+    color:#404255;
     text-align: center;
     width:60%;
     margin:0 auto;
@@ -74,7 +74,7 @@ color: #5a6883;
     margin-top:15px;
 }
 .services_list div h4{
-    color:#5a6883;
+    color:#2B3A55;
 }
 /*services contact us section beignning*/
 .Services_contact_us{
