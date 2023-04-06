@@ -71,8 +71,9 @@ background-color: none;
 	margin-left: 35px;
 }
 .navbar {
-	width:70%;
+	width:60%;
 	height:60px;
+    margin-left:100px;
 }
 .navbar > ul{
 	display:flex;
