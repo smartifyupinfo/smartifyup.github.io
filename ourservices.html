@@ -25,29 +25,31 @@
     </section>
 <!--navbar section-->
 
-<nav class="navbar">
-    <div class="navbar_section">
-    <div class="logo_section">
-        <a href="index.html"><img src="\images\logo1.png" alt=""></a>
+<div class="headersection">
+    <div class="logosection">
+        <a href="index.html"><img src="\smartify_up\images\logo1.png" alt="smartifyup logo"></a> 
     </div>
-    <div class="nav_links"> 
-    <ul class="navlinks">
-        <li><a href="index.html" class="hover-underline-animation" >Home</a></li>
-        <li><a href="ourservices.html" class="hover-underline-animation">Our Services</a></li>
-        <li><a href="contactus.html" class="hover-underline-animation">Contact Us</a></li>
-        <div class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Reach Us
-            </a>          
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="tel:+919966351900">Call Us</a></li>
-              <li><a class="dropdown-item" href="mailto:info@smartifyup.com">Mail Us</a></li>
-            </ul>
-          </div>
-    </ul>    
+     <nav class="navbar" id ="menu">
+         <ul>
+             <li><a href="index.html" class="hover-underline-animation">Home</a></li>
+             <li><a href="ourservices.html" class="hover-underline-animation" >Services</a></li>
+             <li><a href="contactus.html" class="hover-underline-animation" >Contact Us</a></li>
+             <div class="dropdown">
+              <button class="dropbtn">Reach Us</button>
+              <div class="dropdown-content">
+                <a href="#">Call Us</a>
+                <a href="#">Reach Us</a>
+              </div>
+            </div>
+             
+         </ul>
+     </nav>
+     <svg onclick="menuShow()" onblur="menuClose()" id="burger" fill=" #000" viewBox="0 0 448 512" title="bars">
+        <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163
+         16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163
+          16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+    </svg>
     </div>
-</div>
-</nav>
 <!--navbar section ending-->
 <!--our services hero section beginnning-->
 <div class="our_services_hero_section">
