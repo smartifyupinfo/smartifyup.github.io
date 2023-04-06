@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/maiandra-gd" rel="stylesheet">
     <title>Smartify Up</title>
@@ -23,31 +23,32 @@
         <div class="social_icons"><img src="\images\whatsapp.png" alt=""></div>
     </section>
 <!--navbar section-->
-
-<nav class="navbar">
-    <div class="navbar_section">
-    <div class="logo_section">
-        <a href="index.html"><img src="\images\logo1.png" alt=""></a>
+<div class="headersection">
+    <div class="logosection">
+        <a href="index.html"><img src="\images\logo1.png" alt="smartifyup logo"></a> 
     </div>
-    <div class="nav_links"> 
-    <ul class="navlinks">
-        <li><a href="index.html" class="hover-underline-animation" >Home</a></li>
-        <li><a href="ourservices.html" class="hover-underline-animation">Our Services</a></li>
-        <li><a href="contactus.html" class="hover-underline-animation">Contact Us</a></li>
-        <div class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Reach Us
-            </a>          
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="tel:+919750097588">Call Us</a></li>
-              <li><a class="dropdown-item" href="mailto:info@smartifyup.com">Mail Us</a></li>
-            </ul>
-          </div>
-    </ul>    
+     <nav class="navbar" id ="menu">
+         <ul>
+             <li><a href="index.html" class="hover-underline-animation">Home</a></li>
+             <li><a href="services.html" class="hover-underline-animation" >Services</a></li>
+             <li><a href="aboutus.html" class="hover-underline-animation" >Contact Us</a></li>
+             <div class="dropdown">
+              <button class="dropbtn">Reach Us</button>
+              <div class="dropdown-content">
+                <a href="tel:+919750097588">Call Us</a>
+                <a href="mailto:info@smartifyup.com">Reach Us</a>
+              </div>
+            </div>
+             
+         </ul>
+     </nav>
+     <svg onclick="menuShow()" onblur="menuClose()" id="burger" fill=" #000" viewBox="0 0 448 512" title="bars">
+        <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163
+         16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163
+          16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
+    </svg>
     </div>
-</div>
-</nav>
-
+  <!--responsive navbar ending-->
 <!--hero section-->
 <div class="hero_section">
  
@@ -72,39 +73,11 @@
 </div>
 
 
-<!--company services section-->
-<!--
-<div class="company_services">
-
-    <section class="services_block">
-            <div class="servcies_image"><img src="\smartify_up\images\talent_icon.png" alt="contract talent"></div>
-            <h4>Contract Talent</h4>
-            <p style="color:black">Get the top-quality contract talent you need for your IT staffing needs with our expert services.</p>
-            <button>Contact&nbsp;Us</button>
-
-    </section>
-    <section class="services_block">
-        <div class="servcies_image"><img src="\smartify_up\images\placement_icon.png" alt="contract talent"></div>
-        <h4>Permanent Placement</h4>
-        <p style="color:black">Secure the best talent for your company with our permanent placement services for IT staffing</p>
-        <button>Contact&nbsp;Us</button>
-
-</section>
-<section class="services_block">
-    <div class="servcies_image"><img src="\smartify_up\images\solutions_icon.png" alt="contract talent"></div>
-    <h4>Managed Solutions</h4>
-    <p style="color:black">Streamline your IT staffing with our managed solutions services, designed to provide end-to-end support</p>
-    <button>Contact&nbsp;Us</button>
-
-</section>
-
-</div>
-
--->
+<!--our services seciton styling begin-->
 <div class="our_services">
     <h1 style="width:100%;height:50px;font-weight:600;display:flex;justify-content: center;align-items:center;color:#404255">Our Services</h1>
     <div class="services_title">
-        <h1 style="font-weight:600;color:#404255">The services we offer is <span style="color:rgb(226, 168, 93);"> Specifically</span> <br> designed to meet your needs.</h1>
+        <h1>The services we offer is Specifically designed to meet your needs.</h1>
     </div>
     <div class="services_tiles">
         <section class="services">
@@ -151,33 +124,7 @@
  
 </section>
 </div>
-
-
-<!--our services section-->
-
-<!--our oath section-->
-<!--
-<div class="our_oath_testimonial_section">
-<div class="our_oath_text">
-    <h4>Our Community</h4>
-    <h1>Don't take our word for it. See <span style="color:#2163df">what customers</span> are saying about us.</h1>
-    <p>We pride ourselves on delivering compelling itstaffing and recrutitment and software development, digital marketing solutions. Our winning solutions and experiences help many of our clients interact and engage with their customers in the best possible way</p>
-
-</div>
-<div class="our_oath_images">
-<section class="msgpop1">
-    <div class="msg1"></div>
-    <div class="msg2"></div>
-</section>
-<section class="msgpop2">
-    <div class="msg3"></div>
-    <div class="msg4"></div>
-</section>
-
-</div>
-</div>
--->
-
+<!--about section ending-->
 <!--blog section-->
 <div class="blog_section">
 <section class="blog_section_title">
@@ -186,7 +133,7 @@
 </section>
 <section class="blog_tiles_section">
 <section class="blog_tiles">
-    <img src="images\4380.jpg" alt="">
+    <img src="\images\4380.jpg" alt="">
     <p style="width:80%;margin:0 auto;font-size: 18px;color:#2B3A55">TechTalent: Insights on IT Staffing and Recruitment</p>
     <br>
     <section class="blog_section_tiles"><h5> <a href="blog.html" style="color:#1b56c5">Learn More &#9658;</a></h5></section>
@@ -258,7 +205,7 @@
 
 <script src="index.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
 </body>
 </html>
