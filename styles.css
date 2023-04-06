@@ -835,12 +835,16 @@ background-color: none;
   
   @media only screen and (max-width: 768px) {
     .contact_us_image h4{
-        margin-top:-100px;
+        margin-top:-250px;
     }
     .contact_us_forms img {
       display: block;
       margin-left:-50px;
-      margin-top:-100px;
+      margin-top:-200px;
+      object-fit:contain;
+    }
+    .contact_us_image form{
+        margin-top:0px;
     }
   }
   
