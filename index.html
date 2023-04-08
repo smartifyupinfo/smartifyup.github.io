@@ -14,6 +14,10 @@
     <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">    
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/maiandra-gd" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <title>Smartify Up</title>
 </head>
 <body>
@@ -25,7 +29,7 @@
         <div class="social_icons"><img src="\images\whatsapp.png" alt=""></div>
     </section>
 <!--navbar section-->
-<div class="headersection">
+<!--<div class="headersection">
     <div class="logosection">
         <a href="index.html"><img src="\images\logo1.png" alt="smartifyup logo"></a> 
     </div>
@@ -51,10 +55,59 @@
          16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163
           16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z" />
     </svg>
-    </div>
+    </div>-->
+    <header id="header-2">
+        <nav class=" navbar navbar-expand-sm bg-custom navbar-inverse" style="width:90%;margin:0 auto;">
+           <a href="index.html" class="navbar-brand font-weight-bold "><img src="/images/logo1.png" alt="" style="width:200px; height:80px;object-fit:contain;"></a>
+           <button class="navbar-toggler ml-auto custom-toggler" type="button" data-toggle="collapse" data-target="#navbarCustom">
+               <span class="navbar-toggler-icon"></span>
+            </button>
+        
+           <div class="navbar-collapse collapse" id="navbarCustom">
+             <ul class="navbar-nav ml-auto" style="margin-right:100px;">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="ourservices.html">services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contactus.html">Contact</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Reach Us</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="tel:+919750097588">Call Us</a>
+                        <a class="dropdown-item" href="mailto:info@smartifyup.com">Mail Us</a>
+                    </div>
+                </li>
+               
+               
+            </ul>
+             
+        </div>
+    </nav>
+        
+        </header>
   <!--responsive navbar ending-->
 <!--hero section-->
-<div class="hero_section">
+<div class="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 order-2 order-sm-1" style="border:1px solid black;">
+          <h2 style="color:black">Staff Up. Get Staffed. We're the Top Destination for Both</h2>
+          <p style="color:black">At our IT staffing and recruiting company, we understand the importance of having the right talent on your team. That's why we go above and beyond..</p>
+          <a href="#" class="btn btn-light btn-lg" style="background-color: #1b56c5;color:white;"> Learn More</a>
+        </div>
+        <div class="col-sm-6 order-1 order-sm-2" style="border:1px solid black;">
+          <img src="images/hero_section_image.png" class="img-fluid" alt="hero section image">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+<!--<div class="hero_section">
  
     <div class="hero_content">
         <h1 style="width:100%;height:auto;font-weight:600;color: #2B3A55">Staff Up. Get Staffed. We're the Top Destination for Both</h1>
@@ -75,7 +128,7 @@
 
 
 </div>
-
+-->
 
 <!--our services seciton styling begin-->
 <div class="our_services">
