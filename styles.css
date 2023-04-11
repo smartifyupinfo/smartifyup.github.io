@@ -445,14 +445,14 @@ background-color: none;
 .banner {
     background-color: #fff9f0;
     color: #f1f1f1;
-    height: 100vh;
+    height: 80vh;
   }
   .container {
-    height: 100vh;
+    height: 80vh;
   }
   .row {
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     overflow:hidden;
   }
   .btn {
