@@ -119,6 +119,10 @@ color: #5a6883;
 @media (max-width: 768px) {
     .our_special_areas{
         height:1000px;
+        margin-top: 25px;
+    }
+    .our_special_areas h2{
+        font-size: 1.5em;
     }
     .services_list {
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust grid column size for smaller screens */
@@ -132,12 +136,13 @@ color: #5a6883;
 @media (max-width: 768px){
     .Services_contact_us{
         margin-left:18%;
-        margin-top:350px;
+        margin-top:150px;
     }
+
 }
 @media (max-width: 414px){
     .our_special_areas{
-        margin-top:150px;
+        margin-top:50px;
     }
 }
 .services_footer{
