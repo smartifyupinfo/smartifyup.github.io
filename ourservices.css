@@ -152,7 +152,7 @@ color: #5a6883;
 }
 .services_footer .footer_sections{
     width:250px;
-    height:250px;
+    height:200px;
     text-align: center;
 }
 .footer_sections .quick_links{
@@ -170,7 +170,7 @@ color: #5a6883;
 @media only screen and (max-width: 768px) {
     .services_footer{
         margin-top:50px;
-        height:1200px;
+        height:1000px;
         grid-template-columns: auto;
     }
 }

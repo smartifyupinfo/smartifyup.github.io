@@ -1187,8 +1187,9 @@ background-color: none;
 }
 .footer .footer_sections{
     width:250px;
-    height:250px;
+    height:200px;
     text-align: center;
+    border:1px solid black;
 }
 .footer_sections .quick_links{
     text-align:center;
@@ -1205,7 +1206,7 @@ background-color: none;
 @media only screen and (max-width: 768px) {
     .footer{
         margin-top:600px;
-        height:1200px;
+        height:1000px;
         grid-template-columns: auto;
     }
 }
