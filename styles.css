@@ -716,6 +716,8 @@ background-color: none;
 }
 .services h4{
     font-weight: 600;
+    text-align: center;
+    font-size: 20px;
 }
 .services p{
     text-align:center;
@@ -723,6 +725,7 @@ background-color: none;
     width:90%;
     margin-left:5%;
     margin-right:5%;
+    font-size: 14px;;
 }
 .services section .hover-underline-animation {
     display: inline-block;
