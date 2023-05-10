@@ -101,3 +101,30 @@ box-sizing:border-box;
         
     }
 }
+/*about vetting process*/
+.about_vetting{
+    width:100%;
+    height:auto;
+    text-align: center;
+}
+.vetting_procedure{
+    width:80%;
+    height:auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:50px;
+}
+.vetting_procedure section{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:250px;
+    height:150px;
+    border-left:2px solid #1b56c5;
+}
+.vetting_procedure section h4, p{
+    margin-left:15px;
+}
