@@ -21,7 +21,7 @@ box-sizing:border-box;
 }
 .body_of_vetting h1{
     font-weight: 900;
-    font-size: 4vw;
+    font-size: 3vw;
     margin-top:25px;
 }
 .body_of_vetting p{
@@ -97,8 +97,13 @@ box-sizing:border-box;
     }
     .conatctus_vetting{
         margin-top:-550px;
-            
-        
+    }
+    .about_vetting h1{
+        font-size: 8vw;
+    }
+    .vetting_procedure{
+        display: flex;
+        flex-direction: column;
     }
 }
 /*about vetting process*/

@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Maiandra GD', sans-serif;
+    margin:0;
+    padding:0;
+    text-decoration: none;
+}
+/*vertical lines section*/
+body{
+box-sizing:border-box;
+}
+.itstaffing_hero_section{
+    width: 100%;
+    height:auto;
+    background-color: #fff9f0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.staffing_text_content{
+    width: 100%;
+    height:auto;
+    background-color: #fff9f0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.staffing_text_content h3{
+    width:60%;
+    margin:0 auto;
+    text-align: center;
+}
+.staffing_text_content p{
+    width:60%;
+    margin:0 auto;
+    text-align: center;
+} 
+.staffing_text_content .Hire_tech_talent{
+    width:auto;
+    height:auto;
+    border-radius: 15px;
+    background-color: #4588df;
+    border:none;
+}
+.Hire_tech_talent a{
+    color:#f1efeb;
+    font-weight: bold;
+    margin:5px;
+}
+.Hire_tech_talent a:hover{
+    text-decoration: none;
+    color:#db9020;
+}
+.staffing_image{
+    width: 100%;
+    height:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.staffing_image img{
+    width:40vw;
+    height:40vw;
+    object-fit: contain;
+}
+@media only screen and (max-width: 768px){
+    .itstaffing_hero_section{
+        flex-direction: column-reverse;
+    }
+    
+    .staffing_image img{
+        width:75vw;
+        height:75vw;
+    }
+
+}
+/*smartifyup hiring process*/
+.smartifyUp_itstaffing_process{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.smartifyUp_itstaffing_process .hiring_blocks{
+    width:80%;
+    height:auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hiring_blocks section{
+    width:250px;
+    height:250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:10px;
+}
+.hiring_blocks section img{
+    width:80px;
+    height:80px;
+    object-fit: contain;
+}
+.hiring_blocks section p{
+    width:80%;
+    margin: 0 auto;
+    text-align: justify;
+    word-spacing: -5px;
+}
+@media only screen and (max-width: 768px){
+    .smartifyUp_itstaffing_process h2{
+       font-size: 7.5vw;
+    }
+    .smartifyUp_itstaffing_process .hiring_blocks{
+        width:80%;
+        height:auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+}
