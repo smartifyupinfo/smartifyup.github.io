@@ -128,3 +128,91 @@ box-sizing:border-box;
         align-items: center;
     }
 }
+/*ending of staffing process*/
+/*beginning of why choose us*/
+.why_choose_us{
+    width:100%;
+    height:auto;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.why_choose_us h1{
+    font-size:3vw;
+}
+.why_choose_us .choose_us_grid{
+    width:80%;
+    height:auto;
+    border:1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 15px;
+    justify-content: center;
+    align-items: center;
+}
+.choose_us_grid .why_choose_grid{
+    width:250px;
+    height:180px;
+    border:1px solid black;
+    margin-left:50px;
+}
+.why_choose_grid h5{
+    margin-left:10px;
+    font-size:1.8vw;
+}
+.why_choose_grid p{
+    font-size: 13px;
+    width:90%;
+    margin:0 auto;
+    text-align: justify;
+}
+@media only screen and (max-width: 768px){
+    .why_choose_us h1{
+        font-size:5.5vw;
+    }
+    .why_choose_us .choose_us_grid{
+    width:auto;
+    height:auto;
+    border:1px solid black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+    justify-content: center;
+    align-items: center;
+    }
+    .choose_us_grid .why_choose_grid{
+        width:250px;
+        height:180px;
+        border:1px solid black;
+        margin-left:20px;
+        text-align: left;
+    }
+    .staffing_footer{
+        margin-top:0px;
+    }
+}
+@media only screen and (max-width:512px){
+    .why_choose_us h1{
+        font-size:8.5vw;
+    }
+    .why_choose_us .choose_us_grid{
+        width:auto;
+        height:auto;
+        border:1px solid black;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        }
+        .choose_us_grid .why_choose_grid{
+            width:250px;
+            height:180px;
+            border:1px solid black;
+            margin-left:0px;
+        }
+        .staffing_footer{
+            margin-top:0px;
+        }
+}
