@@ -133,7 +133,6 @@ box-sizing:border-box;
 .why_choose_us{
     width:100%;
     height:auto;
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -145,7 +144,6 @@ box-sizing:border-box;
 .why_choose_us .choose_us_grid{
     width:80%;
     height:auto;
-    border:1px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 15px;
@@ -155,8 +153,16 @@ box-sizing:border-box;
 .choose_us_grid .why_choose_grid{
     width:250px;
     height:180px;
-    border:1px solid black;
     margin-left:50px;
+}
+.why_choose_grid:nth-child(4){
+    margin-top:25px;
+}
+.why_choose_grid:nth-child(5){
+    margin-top:25px;
+}
+.why_choose_grid:last-child{
+    margin-top:25px;
 }
 .why_choose_grid h5{
     margin-left:10px;
@@ -175,7 +181,6 @@ box-sizing:border-box;
     .why_choose_us .choose_us_grid{
     width:auto;
     height:auto;
-    border:1px solid black;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 15px;
@@ -185,7 +190,6 @@ box-sizing:border-box;
     .choose_us_grid .why_choose_grid{
         width:250px;
         height:180px;
-        border:1px solid black;
         margin-left:20px;
         text-align: left;
     }
@@ -200,7 +204,6 @@ box-sizing:border-box;
     .why_choose_us .choose_us_grid{
         width:auto;
         height:auto;
-        border:1px solid black;
         display: grid;
         grid-template-columns: 1fr;
         justify-content: center;
@@ -209,7 +212,6 @@ box-sizing:border-box;
         .choose_us_grid .why_choose_grid{
             width:250px;
             height:180px;
-            border:1px solid black;
             margin-left:0px;
         }
         .staffing_footer{
