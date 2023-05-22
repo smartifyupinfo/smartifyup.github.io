@@ -110,7 +110,37 @@ box-sizing:border-box;
     text-align: justify;
 }
 
-
+@media only screen and (max-width: 768px){
+    .our_specialities_sections{
+        width:100%;
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .staffing_process{
+        width:300px;
+        height:400px;
+        text-align: center;
+        border-radius: 10px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        margin-top:25px;
+    }
+    .staffing_process img{
+        margin-top:50px;
+    }
+    .staffing_process h6{
+        margin-top:15px;
+        font-weight: bold;
+    }
+    .staffing_process p{
+        font-size:14px;
+        width: 80%;
+        margin: 0 auto;
+        text-align: justify;
+    }
+}
 
 /*ending of the hiring process*/
 .smartifyUp_itstaffing_process{
@@ -152,7 +182,8 @@ box-sizing:border-box;
 }
 @media only screen and (max-width: 768px){
     .smartifyUp_itstaffing_process h2{
-       font-size: 7.5vw;
+       text-align: center;
+       font-size: 6.5vw;
     }
     .smartifyUp_itstaffing_process .hiring_blocks{
         width:80%;
@@ -228,6 +259,10 @@ box-sizing:border-box;
         height:180px;
         margin-left:20px;
         text-align: left;
+    }
+    .why_choose_grid h5{
+        margin-left:10px;
+        font-size:4.5vw;
     }
     .staffing_footer{
         margin-top:0px;
