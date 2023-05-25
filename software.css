@@ -95,6 +95,8 @@ box-sizing:border-box;
         border:none;
         background-color: #4588df;
         border-radius: 10px;
+        margin-top:25px;
+        margin-bottom:25px;
     }
     .hero_button a{
         color:white;
@@ -114,7 +116,7 @@ box-sizing:border-box;
 }
 .software_services_section{
     width:80%;
-    height:600px;
+    height:auto;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -136,4 +138,31 @@ box-sizing:border-box;
 }
 .software_services p{
     font-weight: bold;
+}
+.software_footer{
+    margin-top:0px;
+}
+@media only screen and (max-width: 768px){
+    .software_services_title{
+        margin-top: 25px;
+    }
+    .software_services_section{
+        width:80%;
+        height:auto;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        place-items: center;
+        margin-top:50px;
+    }
+    .software_services:first-child{
+        width:250px;
+        height:250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top:25px;
+    }
 }
