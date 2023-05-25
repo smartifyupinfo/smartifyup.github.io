@@ -105,10 +105,17 @@ box-sizing:border-box;
         color:#fff9f0;
     }
 }
+.software_services_title{
+    width:80%;
+    height:auto;
+    padding:25px;
+    margin: 0 auto;
+    text-align: center;
+}
 .software_services_section{
-    width:100%;
+    width:80%;
     height:600px;
-    border:1px solid black;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
@@ -117,5 +124,16 @@ box-sizing:border-box;
 .software_services{
     width:250px;
     height:250px;
-    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.software_services img{
+    width:220px;
+    height:220px;
+    object-fit: contain;
+}
+.software_services p{
+    font-weight: bold;
 }
