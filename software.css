@@ -166,3 +166,9 @@ box-sizing:border-box;
         margin-top:25px;
     }
 }
+/*contact us for software projects*/
+.contact_for_software_projects{
+    width: 100%;
+    height:250px;
+    border:1px solid black;
+}
