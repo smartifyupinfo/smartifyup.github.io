@@ -461,6 +461,7 @@ background-color: none;
     background:#1b56c5;
     color:white;
     border:none;
+    margin-bottom: 25px;
   }
   
   @media screen and (min-width: 769px) {
@@ -474,6 +475,7 @@ background-color: none;
       text-align: center;
       height:auto;
     }
+   
   }
   @media screen and (max-width: 567px) {
     img {
@@ -891,6 +893,7 @@ background-color: none;
   }
   .blog_section .blog_section_title{
     height: 80px;
+    margin-top:50px;
   }
   .blog_section_title h2{
     font-size:30px;
