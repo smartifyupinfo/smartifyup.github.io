@@ -221,6 +221,8 @@ box-sizing:border-box;
     width:250px;
     height:180px;
     margin-left:50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .why_choose_grid:nth-child(4){
     margin-top:25px;
