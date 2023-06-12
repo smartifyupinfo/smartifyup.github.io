@@ -122,6 +122,9 @@ background-color: #fff9f0;
     width:250px;
     height:250px;
     margin:20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding:15px;
+    border-radius: 10px;
 }
 /*media queries of types of operator*/
 @media only screen and (max-width: 768px){
