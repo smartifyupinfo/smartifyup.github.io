@@ -218,8 +218,8 @@ box-sizing:border-box;
     align-items: center;
 }
 .choose_us_grid .why_choose_grid{
-    width:250px;
-    height:180px;
+    width:300px;
+    height:250px;
     margin-left:50px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -243,6 +243,17 @@ box-sizing:border-box;
     margin:0 auto;
     text-align: justify;
 }
+@media only screen and (max-width: 960px){
+    .why_choose_us .choose_us_grid{
+        width:auto;
+        height:auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        justify-content: center;
+        align-items: center;
+        }
+}
 @media only screen and (max-width: 768px){
     .why_choose_us h1{
         font-size:5.5vw;
@@ -256,18 +267,14 @@ box-sizing:border-box;
     justify-content: center;
     align-items: center;
     }
-    .choose_us_grid .why_choose_grid{
-        width:250px;
-        height:180px;
-        margin-left:20px;
-        text-align: left;
-    }
+    
     .why_choose_grid h5{
         margin-left:10px;
         font-size:4.5vw;
     }
     .staffing_footer{
         margin-top:0px;
+
     }
 }
 @media only screen and (max-width:512px){
@@ -282,11 +289,7 @@ box-sizing:border-box;
         justify-content: center;
         align-items: center;
         }
-        .choose_us_grid .why_choose_grid{
-            width:250px;
-            height:180px;
-            margin-left:0px;
-        }
+       
         .staffing_footer{
             margin-top:0px;
         }
@@ -329,15 +332,15 @@ box-sizing:border-box;
       content: '';
       position: absolute;
       left: 0; bottom: 0; width: 0; height: 0;
-      border-left: 25px solid #ffffff;
-      border-top: 25px solid transparent;
-      border-bottom: 25px solid transparent;
+      border-left: 24px solid #ffffff;
+      border-top: 24px solid transparent;
+      border-bottom: 24px solid transparent;
     }
   
     .arrow-pointer:before {
       content: '';
       position: absolute;
-      right: -25px;
+      right: -24px;
       bottom: 0;
       width: 0;
       height: 0;
@@ -345,6 +348,7 @@ box-sizing:border-box;
       border-top: 25px solid transparent;
       border-bottom: 25px solid transparent;
     }
+   
   
     @media only screen and (max-width:1024px){
         .executiv_search{
@@ -447,4 +451,8 @@ box-sizing:border-box;
             letter-spacing: 1px;
             margin-left:20px;
         }  
+    }
+    .staffing_footer{
+        height:auto;
+        padding:50px;
     }
